@@ -16,6 +16,8 @@
 	<modules>
 		<module>back</module>
 		<module>front</module>
+		<module>api</module>
+		<module>world</module>
 	</modules>
 
 	<name>apps</name>
@@ -33,6 +35,11 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.laugues</groupId>
+			<artifactId>models</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!--<dependency>-->
 		<!--<groupId>com.netflix.hystrix</groupId>-->

@@ -115,7 +115,7 @@ public class Invoice implements Serializable {
 
     /**
      * The invoice number.
-     * <p/>
+     *
      * number
      */
     private String number;
@@ -140,7 +140,7 @@ public class Invoice implements Serializable {
 
     /**
      * The type.
-     * <p/>
+     *
      * type
      */
     private String type;
@@ -153,7 +153,7 @@ public class Invoice implements Serializable {
 
     /**
      * The itesoft id.
-     * <p/>
+     *
      * code
      */
     private String code;
@@ -192,7 +192,7 @@ public class Invoice implements Serializable {
 
     /**
      * The custom3.
-     * <p/>
+     *
      * custom3
      */
     private String custom3;
